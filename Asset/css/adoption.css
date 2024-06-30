@@ -1,0 +1,54 @@
+
+#btns{
+    width: 100px;
+    height: 40px;
+    align-self: center;
+    white-space: inherit;
+}
+form{
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  padding-left: 50px;
+  padding-right: 50px;
+ margin :auto;
+  align:center;
+
+}
+body
+{
+  background-image: url("../images/adopt.jpg");
+  background-size:cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  text-align:center;
+  margin:auto;
+  padding:0;
+/*font-family:Tisa;*/
+font-color:black;
+}
+.fa{
+  color: white;
+}
+
+.fa:hover {
+  opacity: 0.7;
+}
+.container{
+  height:auto;
+  width: auto;
+
+
+}
+
+ p
+ {
+    text-align:center;
+    font-size: 20pt;
+    font-style: bold;
+    padding-bottom: 20px;
+
+
+ }

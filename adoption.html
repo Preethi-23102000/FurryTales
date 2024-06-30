@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Adoption Page</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+    <script src="Asset/javaScript/adoption.js"></script>
+
+     <!-- <link href="//db.onlinewebfonts.com/c/aef726001a07788d4c639a835fa10360?family=FF+Tisa" rel="stylesheet" type="text/css"/>-->
+     <link rel="stylesheet" href="Asset/css/adoption.css">
+<link rel="icon" href="Asset/images/favicon.ico" type="image" sizes="16x16">
+
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-md  navbar-dark" style="background-color:white;opacity:0.9;">
+      <a class="navbar-brand" href="index.html" target="_blank" style="color:black">FurryTales</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar" style="background-color:black; opacity:0.7">
+        <span class="navbar-toggler-icon" style="color:black"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="collapsibleNavbar">
+        <ul class="navbar-nav">
+          <li class="nav-item" >
+            <a class="nav-link" href="index.html" target="_blank" style="color:black;text-align:left">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="AboutUs.html" target="_blank" style="color:black ;text-align:left">About Us</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="Dogs.html" target="_blank" style="color:black; text-align:left">Dogs</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="Cats.html" target="_blank" style="color:black;text-align:left" >Cats</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="volunteer.html" target="_blank" style="color:black;text-align:left">Volunteer</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="contactUs.html" target="_blank" style="color:black;text-align:left">Contact</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+<br>
+<br>
+    <div class="container" style="opacity:0.9">
+
+    <form>
+      <div class="form-row ">
+           <p>Adoption Form</p>
+           <br>
+           <br>
+         </div>
+           <div class="form-row ">
+        <div class="form-group col-md-6">
+            <label for="inputname" >Name</label>
+            <input type="text" class="form-control" id="inputname" placeholder="Enter Name" required >
+        </div>
+        <div class="form-group col-md-6">
+            <label for="inputemail" >Email</label>
+            <input type="email" class="form-control" id="inputemail" placeholder="Email" required>
+        </div>
+      </div>
+      <div class="form-row ">
+        <div class="form-group col-md-12">
+          <label for="inputAddress">Address</label>
+          <input type="text" class="form-control" id="inputAddress" placeholder="1234 Main St">
+        </div>
+      </div>
+      <div class="form-row ">
+        <div class="form-group col-md-12" >
+          <label for="inputAddress2">Address 2</label>
+          <input type="text" class="form-control" id="inputAddress2" placeholder="Apartment, studio, or floor">
+        </div>
+      </div>
+
+  <div class="form-row">
+    <div class="form-group col-md-3">
+      <label for="inputCity">Mobile Number</label>
+      <input type="text" class="form-control" id="inputCity" placeholder="Enter Number" required>
+    </div>
+    <div class="form-group col-md-3">
+      <label for="inputCity">City</label>
+      <input type="text" class="form-control" id="inputCity">
+    </div>
+    <div class="form-group col-md-3">
+      <label for="inputState">State</label>
+      <select id="inputState" class="form-control">
+        <option selected>Choose...</option>
+        <option>Andaman and Nicobar Islands</option>
+        <option>Andhra Pradesh</option>
+        <option>Assam</option>
+        <option>Arunachal Pradesh</option>
+        <option>Bihar</option>
+        <option>Chandigarh</option>
+        <option>Chhattisgarh</option>
+        <option>Dadra and Nagar Haveli</option>
+        <option>Daman and Diu</option>
+        <option>Delhi</option>
+        <option>Goa</option>
+        <option>Gujarat</option>
+        <option>Haryana</option>
+        <option>Himachal Pradesh</option>
+        <option>Jammu and Kashmir</option>
+        <option>Jharkhand</option>
+        <option>Karnataka</option>
+        <option>Kerala</option>
+        <option>Lakshadweep</option>
+        <option>Ladakh</option>
+        <option>Madhya Pradesh</option>
+        <option>Maharashtra</option>
+        <option>Manipur</option>
+        <option>Meghalaya</option>
+        <option>Mizoram</option>
+        <option>Nagaland</option>
+        <option>Orissa</option>
+        <option>Puducherry</option>
+        <option>Punjab</option>
+        <option>Rajasthan</option>
+        <option>Sikkim</option>
+        <option>Tamil Nadu</option>
+        <option>Telangana</option>
+        <option>Tripura</option>
+        <option>Uttaranchal</option>
+        <option>Uttar Pradesh</option>
+        <option>West Bengal</option>
+
+      </select>
+    </div>
+    <div class="form-group col-md-3">
+      <label for="inputZip">Zip</label>
+      <input type="text" class="form-control" id="inputZip" required>
+    </div>
+  </div>
+  <div class="form-row">
+  <div class="form-group col-md-6">
+    <label for="inputpet">Choose Type Of Animal </label>
+    <select id="slct1" class="form-control" name="slct1" onchange="populate(this.id,'slct2')">
+      <option selected>Choose Option</option>
+   <option value="dog">Dog</option>
+   <option value="cat">Cat</option>
+    </select>
+  </div>
+  <div class="form-group col-md-6">
+    <label for="petList">List of Pet</label>
+    <select id="slct2" class="form-control" name="slct2">
+      <option selected >Choose Pet</option>
+      </select>
+  </div>
+</div>
+  <div>
+    <center>
+  <a href="javascript:void(0);"><button type="submit" class="btn btn-primary text-center" id="btns" onclick="test();">Submit</button></a>
+</center>
+</div>
+</form>
+</div>
+<br><br>
+<br><br>
+<div style="background-color:white;opacity:0.7">
+<footer >
+  <p>
+    <a href="https://www.facebook.com/Petfinder" class="fa fa-facebook" target="_blank" style="color:black;" ></a>
+    <a href="https://twitter.com/Petfinder" class="fa fa-twitter" target="_blank" style="color:black;"></a>
+    <a href="https://in.pinterest.com/petfinder/" class="fa fa-pinterest" target="_blank" style="color:black;"></a>
+    <a href="https://www.instagram.com/petfinder/" class="fa fa-instagram" target="_blank" style="color:black;"></a>
+    <a href="https://www.youtube.com/channel/UC85FmJhwKDfiXfialMvyM5g" class="fa fa-youtube" target="_blank" style="color:black;"></a>
+  </p>
+  <hr style="height:2px;border-width:0;color:black;background-color:black">
+  <p style="color:black;">©2020 FurryTales.com</p>
+</footer>
+</div>
+</body>
+</html>

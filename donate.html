@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Donation Form</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="Asset/javaScript/donation.js"></script>
+<script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+     <!-- <link href="//db.onlinewebfonts.com/c/aef726001a07788d4c639a835fa10360?family=FF+Tisa" rel="stylesheet" type="text/css"/>-->
+     <link rel="stylesheet" href="Asset/css/donate.css">
+<link rel="icon" href="Asset/images/favicon.ico" type="image" sizes="16x16">
+
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-md  navbar-dark" style="background-color:white;opacity:0.9;">
+      <a class="navbar-brand" href="index.html" target="_blank" style="color:black">FurryTales</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar" style="background-color:black; opacity:0.7">
+        <span class="navbar-toggler-icon" style="color:black"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="collapsibleNavbar">
+        <ul class="navbar-nav">
+          <li class="nav-item" >
+            <a class="nav-link" href="index.html" target="_blank" style="color:black;text-align:left">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="AboutUs.html" target="_blank" style="color:black ;text-align:left">About Us</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="Dogs.html" target="_blank" style="color:black; text-align:left">Dogs</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="Cats.html" target="_blank" style="color:black;text-align:left" >Cats</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="volunteer.html" target="_blank" style="color:black;text-align:left">Volunteer</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="contactUs.html" target="_blank" style="color:black;text-align:left">Contact</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+    <br><br>
+<div class="container" id="formcon">
+
+
+  <form >
+    <div class="form-row">
+
+    <hr align="left" >
+      <p style="color: black;font-size: 140%;"><b>Donation Form</b> </p>
+    <hr align="left" >
+  </div>
+    <div class="form-row " style="padding:10px">
+      <label  for="inputname" class="form-label col-sm-2" style="color: black;font-size: 110%;"><b>Name</b></label>
+    <div class="col-sm-10">
+     <input type="text" class="form-control" id="inputname">
+   </div>
+ </div>
+   <div class="form-row " style="padding:10px">
+     <label  for="inputEmail" class="form-label col-sm-2" style="color: black;font-size: 110%;"><b>Email</b></label>
+   <div class="col-sm-10">
+     <input type="Email" class="form-control" id="inputEmail">
+   </div>
+ </div>
+ <div class="form-row " style="padding:10px">
+   <label  for="inputnumber" class="form-label col-sm-2" style="color: black;font-size: 100%;"><b>Mobile Number</b></label>
+ <div class="col-sm-10">
+   <input type="text" class="form-control" id="inputnumber">
+ </div>
+</div>
+<div class="form-row " style="padding:10px">
+  <div class="col-sm-12">
+  <label  for="inputotp" class="form-label " style="color: black;font-size: 100%;"><b>Enter Amount Going to Pay in one time</b></label>
+  <input type="text" class="form-control" id="inputamount">
+</div>
+</div>
+<br><br>
+<centre>
+   <div class="col-12" id="btn1">
+     <a href="javascript:void(0);"><button type="submit" class="btn btn-primary" onclick="donation();" >Donate</button></a>
+   </div>
+     </centre>
+ </form>
+
+</div>
+<br><br><br>
+<div style="background-color:white;opacity:0.7">
+<footer >
+  <p>
+    <a href="https://www.facebook.com/Petfinder" class="fa fa-facebook" target="_blank" style="color:black;" ></a>
+    <a href="https://twitter.com/Petfinder" class="fa fa-twitter" target="_blank" style="color:black;"></a>
+    <a href="https://in.pinterest.com/petfinder/" class="fa fa-pinterest" target="_blank" style="color:black;"></a>
+    <a href="https://www.instagram.com/petfinder/" class="fa fa-instagram" target="_blank" style="color:black;"></a>
+    <a href="https://www.youtube.com/channel/UC85FmJhwKDfiXfialMvyM5g" class="fa fa-youtube" target="_blank" style="color:black;"></a>
+  </p>
+  <hr style="height:2px;border-width:0;color:black;background-color:black">
+  <p style="color:black;">©2020 FurryTales.com</p>
+</footer>
+</div>
+  </body>
+</html>
